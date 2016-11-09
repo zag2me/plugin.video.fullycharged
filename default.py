@@ -12,7 +12,7 @@ import plugintools
 import xbmc,xbmcaddon
 from addon.common.addon import Addon
 
-addonID = 'plugin.video.FULLYCHARGEDSHOW'
+addonID = 'plugin.video.fullycharged'
 addon = Addon(addonID, sys.argv)
 local = xbmcaddon.Addon(id=addonID)
 icon = local.getAddonInfo('icon')
@@ -21,7 +21,7 @@ YOUTUBE_CHANNEL_ID = "FULLYCHARGEDSHOW"
 
 # Entry point
 def run():
-    plugintools.log("FULLYCHARGEDSHOW.run")
+    plugintools.log("fullycharged.run")
     
     # Get params
     params = plugintools.get_params()
@@ -36,7 +36,7 @@ def run():
 
 # Main menu
 def main_list(params):
-    plugintools.log("FULLYCHARGEDSHOW.main_list "+repr(params))
+    plugintools.log("fullycharged.main_list "+repr(params))
 
     plugintools.add_item( 
         #action="", 
