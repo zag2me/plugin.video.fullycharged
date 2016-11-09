@@ -4,7 +4,7 @@
 	version="1.0.1"
 	provider-name="zag">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="xbmc.python" version="2.14.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
     <import addon="plugin.video.youtube" version="5.0.0"/>
   </requires>
@@ -21,8 +21,8 @@
     <email>zag@kodi.tv</email>
     <license>GPL v2.0</license>
     <assets>
-        <icon>resources/icon.png</icon>
-        <fanart>resources/fanart.jpg</fanart>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
         <screenshot>resources/screenshot-01.jpg</screenshot>
         <screenshot>resources/screenshot-02.jpg</screenshot>
         <screenshot>resources/screenshot-03.jpg</screenshot>
